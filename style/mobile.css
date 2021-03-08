@@ -1,0 +1,837 @@
+@media (max-width: 1365px) {
+
+    .tests {
+        background: #17203D;
+    }
+
+    .tests .container {
+        padding: 0;
+    }
+
+    /*.tests .container {*/
+        /*!*flex-direction: column;*!*/
+        /*position: relative;*/
+    /*}*/
+
+    .tests__item {
+        max-width: 100%;
+        padding: 0 96px 0 96px;
+        position: static;
+        /*padding-top: 800px;*/
+        background-color: #0E2B57;
+    }
+
+    .tests .container{
+        display: flex;
+        flex-flow: column-reverse;
+        position: relative;
+    }
+
+
+    .tests__item::before{
+       content: none;
+    }
+
+    .tests .container picture img{
+        display: block;
+        width: 100%;
+        padding-top: 116px;
+    }
+
+
+    .tests__text {
+        width: auto;
+        position: absolute;
+        top: 52px;
+        line-height: 1;
+        padding-right: 32px;
+    }
+
+    .tests__text h2 {
+        width: auto;
+        position: static;
+        line-height: 1;
+    }
+
+    .tests__text p {
+        max-width: 40%;
+        padding: 0;
+        margin-top: 26px;
+    }
+
+    /*.tests__img {*/
+        /*background-color: #17203D;*/
+        /*text-align: center;*/
+        /*padding-top: 116px;*/
+    /*а}*/
+
+    /*.tests__img img {*/
+        /*width: 100%;*/
+    /*}*/
+
+    .tests .container ul {
+        justify-content: space-between;
+        padding: 104px 0 112px;
+    }
+
+    .tests .container li:nth-child(n+1){
+        margin-top: 58px;
+    }
+
+    .home.home__top .container::before,
+    .home.home__top .container::after,
+    .doctor .container::after,
+    .doctor__text-item:after,
+    .threats__symptoms .container::after,
+    .threats__symptoms .container::before,
+    .threats .container::before,
+    .threats__trials-text::before,
+    .utility .container::after{
+        display: none;
+    }
+
+    .container{
+        padding-top: 0;
+        padding-right: 32px;
+        padding-bottom: 0;
+        padding-left: 32px;
+    }
+}
+
+
+@media (max-width: 1281px) {
+
+    .doctor__text:after,
+    .doctor__text:before{
+        display: none;
+    }
+
+    /*.tests__item{*/
+        /*padding: 0 32px 0 32px;*/
+        /*background: #0E2B57;*/
+    /*}*/
+
+}
+
+@media (max-width: 1225px) {
+        .doctor__man{
+        margin: -176px auto auto;
+        z-index: 0;
+    }
+
+    .doctor__inner{
+        margin: auto;
+        max-width: 1085px;
+    }
+
+
+    .doctor__text {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 400px;
+    }
+
+    .doctor__text:after,
+    .doctor__text:before{
+        display: block;
+    }
+
+    .advantages .container{
+        padding-top: 680px;
+        padding-bottom: 176px;
+    }
+
+    .advantages picture{
+        z-index: 1;
+    }
+
+}
+
+@media (max-width: 1146px) {
+
+    .advantages .container {
+
+        padding-bottom: 128px;
+
+    }
+
+
+    .advantages .container{
+        flex-direction: column;
+        }
+
+    .advantages picture{
+        text-align: center;
+    }
+
+
+    .advantages__text{
+        margin: auto;
+    }
+
+    .advantages__text h2, .recovery__text h2 {
+        /*font-size: 32px;*/
+        font-size: 48px;
+        line-height: 1;
+    }
+
+    .advantages .container button{
+        max-width: 704px;
+        margin: 96px auto auto;
+    }
+
+    .recovery .container{
+        padding-top: 0;
+        flex-direction: column-reverse;
+    }
+
+    .recovery picture{
+        margin: -96px auto auto;
+        /*position: relative;*/
+        text-align: center;
+    }
+
+    .recovery__text{
+        margin: 16px auto auto;
+        /*margin: auto;*/
+    }
+
+    .utility .container{
+        padding-top: 77px;
+        padding-bottom: 50px;
+    }
+
+
+    .tests__item ul li {
+        width: 35%;
+    }
+
+    .tests__item ul li p {
+        max-width: 100%;
+    }
+
+
+
+
+}
+
+@media (max-width: 1113px) {
+
+    .doctor__man {
+        text-align: center;
+        z-index: 0;
+    }
+
+    .active {
+        margin-top: -64px;
+        background-image:
+            url(../img/active__bg-buttomMIDDLE.png),
+            url(../img/didaMIDDLE.png),
+            url(../img/active__bgMIDDLE.png);
+        background-size: 100% 976px, auto, cover;
+        background-repeat: no-repeat;
+        background-position: center bottom, left top, center 64px;
+        padding-bottom: 102px;
+    }
+
+    .active .container {
+        padding-top: 116px;
+    }
+
+    .active__slider{
+        margin-top: 492px;
+    }
+
+
+
+    .active h2 {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .active .container h3{
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .threats__trials{
+        padding-top: 66px;
+    }
+
+    .threats__trials .container {
+        display: block;
+    }
+
+    .threats__trials-text {
+        margin:auto;
+    }
+
+    .img{
+        margin: auto;
+    }
+
+    .threats__trials-title {
+        margin-top: 32px;
+    }
+
+    .tests__item ul li br {
+        display: block;
+    }
+
+
+    .reviews {
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+
+    .reviews__item {
+        margin-top: 25px;
+    }
+
+    .reviews .slick-initialized .slick-slide {
+        flex-direction: column;
+    }
+
+    .reviews h2{
+        font-size: 32px;
+        line-height: 1.5;
+    }
+
+    .reviews__slider blockquote {
+        max-width: 100%;
+        margin: 16px auto auto;
+    }
+
+    .reviews__slider blockquote span{
+        margin-bottom: 16px;
+        font-size: 24px;
+        line-height: 2;
+    }
+
+
+    .slick-prev{
+        top: 150px;
+    }
+
+    .slick-next{
+        top: 150px;
+    }
+}
+
+@media (max-width: 1010px) {
+    h1{
+        margin-top: 18px;
+        /*font-weight: 900;*/
+        font-size: 48px;
+        line-height: 1;
+    }
+
+    .home__text {
+        margin-top: 31px;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .home__text li span{
+        font-size: 32px;
+    }
+
+    .home__prizes {
+        margin-top: 23px;
+    }
+
+    .home__text :nth-child(n+2) {
+        margin-top: 29px;
+    }
+
+    .active__slider{
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .home.home__top {
+        width: 100%;
+        /*min-height: 752px;*/
+        background-image: url(../img/home_bg-leftMIDDLE.png),
+        url(../img/home_bg-did.png),
+        url(../img/home_bg.png);
+        /*background-size: 100% 752px, auto 752px, 100% 752px;*/
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding-bottom: 245px;
+        position: relative;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .home__inner {
+        margin-top: 51px;
+    }
+
+    .home form {
+        position: absolute;
+        top: auto;
+        bottom: -820px;
+        right: 0;
+        left: 0;
+        max-width: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .threats {
+        margin-top: 575px;
+        padding: 36px 0 106px;
+    }
+
+    .threats h2 {
+        font-size: 32px;
+        line-height: 1;
+    }
+
+    .threats__symptoms-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .threats__trials .container {
+        margin-top: 24px;
+    }
+
+    .doctor__man {
+        margin: -136px auto auto;
+    }
+
+    .doctor__text:after,
+    .doctor__text:before {
+        display: none;
+    }
+
+    .doctor__text {
+        text-align: center;
+        width: 514px;
+        height: 731px;
+
+        min-height: auto;
+        background-size: contain;
+        padding-top: 10px;
+        background-position: center;
+    }
+
+    .advantages .container {
+        padding-top: 540px;
+        padding-bottom: 128px;
+    }
+
+    .advantages__text h2 {
+        margin-top: 34px;
+    }
+
+    .doctor__text-item {
+        padding: 180px 32px 0;
+    }
+
+    .symptoms__slider {
+        margin-top: 73px;
+    }
+
+
+    .tests__item h2 {
+        font-size: 32px;
+    }
+
+    .threats__trials-subtitle {
+        margin-top: 18px;
+    }
+
+    /*.threats__symptoms ul li p {*/
+        /*max-width: 200px;*/
+    /*}*/
+
+    .utility__slider li {
+        margin-top: 58px;
+        width: 100%;
+        /*margin-top: 67px;*/
+    }
+
+    .unility__img {
+        margin: auto;
+    }
+
+    .tests__text {
+        left: 32px;
+    }
+
+    .tests__text p {
+        max-width: 50%;
+    }
+
+    .tests__text {
+        top: 36px;
+    }
+
+    .active h2 {
+        max-width: 250px;
+    }
+
+    .home.home__bottom{
+        padding-bottom: 235px;
+    }
+
+    .home.home__bottom.home form{
+        bottom: -635px;
+    }
+}
+
+@media (max-width: 636px) {
+
+    /*.doctor__text-item{*/
+    /*padding: 0 32px;*/
+    /*}*/
+    .symptoms__slider {
+        display: block;
+    }
+
+    .threats__trials-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .threats__trials {
+        padding-top: 26px;
+    }
+
+    .threats__trials-subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .tests__item {
+        padding: 0 32px 0 32px;
+    }
+
+    .tests .container ul {
+        flex-flow: column;
+        /*justify-content: center;*/
+
+
+        padding: 67px 0 65px;
+    }
+
+    .tests .container ul li {
+        /*width: 100%;*/
+
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .tests .container li:nth-child(1){
+        margin-top: 0;}
+
+}
+
+@media (max-width: 552px) {
+
+    .container {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+}
+
+@media (max-width: 514px) {
+
+    .threats {
+        padding: 39px 0 76px;
+    }
+
+    .doctor__text {
+        width: 360px;
+        height: 516px;
+    }
+
+    .doctor__man {
+    margin-top: -35px;
+    }
+
+    .doctor__text-item {
+        padding: 100px 26px 0;
+        /*max-width: 455px;*/
+        /*margin: 25% auto 15% auto;*/
+    }
+
+    /*.advantages__inner{*/
+        /*padding: 300px 0 176px;*/
+    /*}*/
+
+    .doctor__text{
+        top: 330px;
+    }
+
+    .advantages .container{
+
+        padding-top: 320px;
+        padding-bottom: 128px;
+    }
+
+
+    .threats__trials-text{
+        padding: 0 16px;
+    }
+
+    .doctor .container{
+        padding: 0;
+    }
+
+    .doctor__text-item blockquote {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .doctor__text-item cite p:first-child{
+        font-size: 16px;
+        line-height: 48px;
+    }
+    .doctor__name{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .doctor__profession{
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .tests .container picture img {
+        padding-top: 246px;
+    }
+
+    .tests__text p {
+        max-width: 100%;
+        margin-top: 28px;
+    }
+
+    .active {
+        margin-top: -16px;
+        background-image:
+                url(../img/active__bg-buttomMIN.png),
+                url(../img/didaMIN.png),
+                url(../img/active__bg.png);
+        background-size: 100% 688px, auto, cover;
+        background-repeat: no-repeat;
+        background-position: center bottom, left top, center 16px;
+        padding-bottom: 32px;
+    }
+
+    .active h2 {
+        max-width: 190px;
+        font-size: 24px;
+    }
+
+    .active__inner {
+        padding-top: 52px;
+    }
+    .active__slider {
+        margin-top: 212px;
+    }
+
+    .reviews .slick-dots, .active .slick-dots{
+        margin-top: 26px;
+    }
+
+}
+
+@media (max-width: 444px){
+    header img{
+        margin-top: 17px;
+    }
+
+    .home.home__top {
+        background-image: url(../img/home_bg-leftMIN.png),
+        url(../img/home_bg-didMIN.png),
+        url(../img/home_bg.png);
+        background-size: cover, auto 500px, cover;
+        background-repeat: no-repeat;
+        background-position: top, right bottom, top;
+        padding-bottom: 124px;
+    }
+
+    .home__inner{
+        margin-top: 8px;
+    }
+
+    .home__text li span{
+        font-size: 28px;
+    }
+
+    .home__text {
+        margin-left: 30px;
+    }
+
+    .home__text li:before {
+        content: "";
+        background-image: url(../img/checkMIN.png);
+        left: -30px;
+        width: 28px;
+        height: 24px;
+    }
+
+    h1 {
+        /*margin-top: 9px;*/
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .home__text {
+        margin-top: 46px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .home__text li span {
+        font-size: 18px;
+    }
+
+    .home__prizes {
+        flex-wrap: wrap;
+    }
+
+    .home form {
+        position: absolute;
+        bottom: -785px;
+    }
+
+    .threats {
+        margin-top: 660px;
+    }
+
+    .advantages__text h2, .recovery__text h2, .utility h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .advantages__text ul, .recovery__text ul {
+        margin-top: 38px;
+        font-size: 16px;
+        line-height: 32px;
+        margin-left: 30px;
+    }
+
+    .advantages__text ul li:nth-child(n+2), .recovery__text ul li:nth-child(n+2) {
+        margin-top: 16px;
+    }
+
+    .advantages__text ul li:before, .recovery__text ul li:before{
+        width: 28px;
+        height: 28px;
+        left: -30px;
+    }
+
+    .advantages__text ul li:before {
+        background-image: url(../img/check-whiteMIN.png);
+    }
+
+    .recovery .container {
+        padding-bottom: 40px;
+    }
+
+
+    .recovery__text ul li:before{
+        background-image: url(../img/check-blueMIN.png);
+    }
+
+    .slick-next, .slick-prev{
+        display: none;
+    }
+
+    .utility__slider li h3 {
+        font-size: 24px;
+        /*line-height: 1;*/
+    }
+
+    .utility .container {
+        padding-top: 36px;
+        padding-bottom: 46px;
+    }
+
+    .utility__slider li {
+        margin-top: 28px;
+    }
+
+    .tests .container picture img {
+        padding-top: 296px;
+    }
+
+
+    .reviews {
+        padding-top: 39px;
+        padding-bottom: 48px;
+    }
+
+    .reviews h2 {
+        font-size: 24px;
+        line-height: 1.33;
+    }
+
+    .reviews__item {
+        margin-top: 28px;
+    }
+
+
+    .reviews__slider span {
+        margin-bottom: 14px;
+    }
+
+    .home.home__bottom {
+        padding-bottom: 124px;
+    }
+
+    .home.home__bottom.home form {
+        top: auto;
+        bottom: -635px;
+    }
+    .advantages .container button{
+        margin: 38px auto auto;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .home__prizes li + li{
+        margin-left: 5px;
+    }
+
+    .doctor__text {
+        width: 360px;
+        height: 877px;
+        background-image: url(../img/paperMIN.png);
+    top: 230px;
+    }
+
+    .doctor__text-item {
+        padding: 350px 26px 0;
+    }
+
+    .threats__trials img, .recovery img{
+        width: 100%;
+    }
+    .advantages .container {
+        padding-top: 500px;
+
+        padding-bottom: 128px;
+
+    }
+
+}
+
+
+
+
+
